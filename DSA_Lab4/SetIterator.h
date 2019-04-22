@@ -2,6 +2,7 @@
 #include "Set.h"
 
 class Set;
+typedef int TElem;
 
 class SetIterator
 {

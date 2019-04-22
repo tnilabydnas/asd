@@ -16,32 +16,33 @@ Set::Set()
 
 bool Set::add(TElem e)
 {
-	
+	this->elems[this->firstEmpty] = e;
+	return true;
 }
 
 bool Set::remove(TElem e)
 {
-
+	return false;
 }
 
 bool Set::search(TElem e) const
 {
-
+	return true;
 }
 
 int Set::size() const
 {
-
+	return this->length;
 }
 
 bool Set::isEmpty() const
 {
-
+	return true;
 }
 
 TElem Set::get(int p) const
 {
-	
+	return 0;
 }
 
 SetIterator Set::iterator() const

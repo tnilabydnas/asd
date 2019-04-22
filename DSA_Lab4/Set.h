@@ -14,7 +14,7 @@ class Set
 	
 private:
 	int *elems, *next, *prev;
-	int head, firstEmpty;
+	int head, firstEmpty, length;
 
 public:
 	Set();
