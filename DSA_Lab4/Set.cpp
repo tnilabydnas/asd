@@ -27,6 +27,7 @@ bool Set::remove(TElem e)
 
 bool Set::search(TElem e) const
 {
+
 	return true;
 }
 
