@@ -34,6 +34,7 @@ bool Set::search(TElem e) const
 int Set::size() const
 {
 	return this->length;
+
 }
 
 bool Set::isEmpty() const
