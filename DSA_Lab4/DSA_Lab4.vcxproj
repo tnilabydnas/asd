@@ -115,11 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ExtendedTest.cpp" />
     <ClCompile Include="Set.cpp" />
     <ClCompile Include="SetIterator.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ExtendedTest.h" />
     <ClInclude Include="Set.h" />
     <ClInclude Include="SetIterator.h" />
   </ItemGroup>

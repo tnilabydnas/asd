@@ -4,7 +4,7 @@
 
 typedef int TElem;
 
-const int cap = 1000;
+const int cap = 100000;
 
 class SetIterator;
 
@@ -25,5 +25,6 @@ public:
 	int size() const;
 	bool isEmpty() const;
 	SetIterator iterator() const;
+	int getRange() const;
 	~Set();
 };
